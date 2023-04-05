@@ -23,7 +23,7 @@ pipeline{
 
                         sudo rm -rf html
 
-                        git clone https://github.com/monyslim/web-dev.git
+                        git clone https://github.com/monyslim/web-dev.git html
 
                         
 
