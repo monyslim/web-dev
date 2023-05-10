@@ -15,7 +15,7 @@ pipeline{
             steps{
                 sh '''
                         echo "welcome to the production. Added Jenkins"
-                        ssh -o StrictHostKeyChecking=no -T -i /var/lib/jenkins/dev.pem.pem ubuntu@ec2-35-178-180-58.eu-west-2.compute.amazonaws.com
+                        ssh -o StrictHostKeyChecking=no -T -i /var/lib/jenkins/dev.pem ubuntu@ec2-13-41-80-68.eu-west-2.compute.amazonaws.com
 
                         sudo apt update -y
 
